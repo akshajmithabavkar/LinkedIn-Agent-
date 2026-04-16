@@ -19,7 +19,7 @@ The agent follows a 4-step sequence:
 4. **Final Delivery:** Outputs a structured report.
 
 ## 📸 Backend Workflow
-![Agent Workflow](workflow-screenshot.jpg)
+![Agent Workflow](workflow.jpg)
 
 ## 🔗 Live Demo
 [Paste your agent.ai published link here]
