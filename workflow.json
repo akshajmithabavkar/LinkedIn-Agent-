@@ -1,0 +1,31 @@
+{
+  "agent_name": "LinkedIn Agent",
+  "platform": "agent.ai",
+  "workflow_steps": [
+    {
+      "step": 1,
+      "action": "Get User Input",
+      "description": "Prompts user for LinkedIn profile URL",
+      "variable": "user_input"
+    },
+    {
+      "step": 2,
+      "action": "Get Linkedin Profile Details",
+      "description": "Scrapes professional data from the provided URL",
+      "variable": "professional_info"
+    },
+    {
+      "step": 3,
+      "action": "Generate Content",
+      "model": "gpt-4o-mini",
+      "description": "Analyzes profile and generates optimization tips",
+      "variable": "profile_optimization_results"
+    },
+    {
+      "step": 4,
+      "action": "Show User Output",
+      "description": "Displays formatted results"
+    }
+  ]
+}
+
